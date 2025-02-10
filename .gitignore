@@ -43,3 +43,11 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+*.webm
+/app-all.jar
+/badapple.mp3
+/badapple.wav
+/BadApple.zip
+*.png
+movie
+BadApple

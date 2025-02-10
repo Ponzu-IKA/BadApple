@@ -1,4 +1,4 @@
-package amaiice.app
+package amaiice.badapple
 
 import java.io.File
 import java.util.concurrent.TimeUnit
@@ -19,7 +19,7 @@ class BadApple(private val charSet: CharSet) {
         const val SIZE = 9
     }
     fun readImage(path: String): String {
-        var imageString:String = ""
+        var imageString = ""
         val bufferedImage = ImageIO.read(File(path))
         for (y in 0..HEIGHT step SIZE) {
             for (x in 0..WIDTH step SIZE){

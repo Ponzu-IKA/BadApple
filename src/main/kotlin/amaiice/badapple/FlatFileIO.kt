@@ -1,4 +1,4 @@
-package amaiice.app
+package amaiice.badapple
 
 import java.io.File
 import java.io.FileOutputStream
